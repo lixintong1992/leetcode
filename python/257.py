@@ -10,7 +10,7 @@ class TreeNode(object):
 
 
 # dfs + stack
-    def binaryTreePaths1(self, root):
+    def binaryTreePaths(self, root):
         if not root:
             return []
         res, stack = [], [(root, "")]
