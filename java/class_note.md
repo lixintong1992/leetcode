@@ -9,10 +9,18 @@ s.charAt(i);
 s.length();
 String str=s.trim();
 
+# Arrays
+import java.util.Arrays;
+int[] charMap = new int[256]; 
+Arrays.fill(charMap, -1); 
+
 # Math
 Math.abs(Integer.MIN_VALUE);
+Math.max(1,4);
+Math.min(1,4);
 
 # StringBuilder
+StringBuilder reversed = new StringBuilder(); 
 reversed.length();
 reversed.append(' ');
 reversed.toString();
