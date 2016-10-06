@@ -1,0 +1,30 @@
+public class Solution {
+    private static final int maxDiv10 = Integer.MAX_VALUE / 10; 
+    public int myAtoi(String str) {
+        int i = 0, n = str.length(); 
+        while (i < n && Character.isWhitespace(str.charAt(i))) i++; 
+        int sign = 1; 
+        if (i < n && str.charAt(i) == '+') { 
+           i++; 
+        } else if (i < n && str.charAt(i) == '-') { 
+           sign = -1; 
+           i++; 
+        } 
+        int num = 0; 
+        while (i < n && Character.isDigit(str.charAt(i))) { 
+            int digit = Character.getNumericValue(str.charAt(i)); 
+            if (num > maxDiv10) { 
+                return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE; 
+            }
+            if (num == maxDiv10 && sign == 1 && digit >= Integer.MAX_VALUE % 10){
+                return Integer.MAX_VALUE;
+            }
+            if (num == maxDiv10 && sign == -1 && digit >= Math.abs(Integer.MIN_VALUE % 10)){
+                return Integer.MIN_VALUE;
+            }            
+             num = num * 10 + digit; 
+            i++; 
+        }   
+        return sign * num; 
+    }
+}
