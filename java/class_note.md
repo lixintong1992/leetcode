@@ -12,7 +12,8 @@ String str=s.trim();
 # Arrays
 import java.util.Arrays;
 int[] charMap = new int[256]; 
-Arrays.fill(charMap, -1); 
+Arrays.fill(charMap, -1);
+System.arraycopy(buffer /* src */, 0 /* srcPos */, buf /* dest */, readBytes /* destPos */, bytes /* length */); 
 
 # Math
 Math.abs(Integer.MIN_VALUE);
@@ -23,6 +24,7 @@ Math.min(1,4);
 StringBuilder reversed = new StringBuilder(); 
 reversed.length();
 reversed.append(' ');
+reversed = reversed.reverse();
 reversed.toString();
 
 # HashMap
