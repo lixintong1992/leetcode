@@ -8,6 +8,11 @@ Character.getNumericValue(str.charAt(i));
 s.charAt(i);
 s.length();
 String str=s.trim();
+int i = 0;
+String.valueOf(i)
+
+# Integer
+Integer.toString(i)
 
 # Arrays
 import java.util.Arrays;
