@@ -12,7 +12,7 @@ public class Solution {
             if (result == Integer.MAX_VALUE / 10 && sign == 1 && num >= Integer.MAX_VALUE % 10){
                 return Integer.MAX_VALUE;
             }
-            if (result == Integer.MAX_VALUE / 10 && sign == -1 && num >= Math.abs(Integer.MIN_VALUE + 10 ) % 10){
+            if (result == Integer.MAX_VALUE / 10 && sign == -1 && num >= Math.abs(Integer.MIN_VALUE) % 10){
                 return Integer.MIN_VALUE;
             }
             result = result * 10 + num;
