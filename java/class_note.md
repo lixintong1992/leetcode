@@ -19,9 +19,9 @@ int indexOf(String str) ：返回第一次出现的指定子字符串在此字�
 Integer.toString(i)
 
 # Arrays
-import java.util.Arrays;
 int[] charMap = new int[256]; 
 Arrays.fill(charMap, -1);
+Arrays.asList(num[i], num[lo], num[hi]);
 System.arraycopy(buffer /* src */, 0 /* srcPos */, buf /* dest */, readBytes /* destPos */, bytes /* length */); 
 
 # Math
@@ -41,3 +41,14 @@ HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 map.containsKey(target - nums[i]);
 map.get(target - nums[i]);
 map.put(nums[i], i);
+
+# List
+res.add(i);
+boolean remove(int index);
+set(int index, E element);
+get(int index)   返回列表中指定位置的元素
+subList(int fromIndex, int toIndex)    返回列表中指定的 fromIndex（包括 ）和 toIndex（不包括）之间的部分元素。
+list.size() <= 0;
+Iterator it = al.iterator();
+    while (it.hasNext()){
+        Object obj = it.next();
