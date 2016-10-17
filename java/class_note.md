@@ -20,7 +20,7 @@ Integer.toString(i)
 
 # Arrays
 int[] charMap = new int[256]; 
-Arrays.fill(charMap, -1);
+Arrays.fill(charMap, -1); 不能搞二维数组
 Arrays.asList(num[i], num[lo], num[hi]);
 System.arraycopy(buffer /* src */, 0 /* srcPos */, buf /* dest */, readBytes /* destPos */, bytes /* length */); 
 Arrays.sort(num);
