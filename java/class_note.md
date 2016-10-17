@@ -23,6 +23,7 @@ int[] charMap = new int[256];
 Arrays.fill(charMap, -1);
 Arrays.asList(num[i], num[lo], num[hi]);
 System.arraycopy(buffer /* src */, 0 /* srcPos */, buf /* dest */, readBytes /* destPos */, bytes /* length */); 
+Arrays.sort(num);
 
 # Math
 Math.abs(Integer.MIN_VALUE) == Integer.MIN_VALUE;
