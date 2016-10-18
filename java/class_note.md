@@ -17,6 +17,7 @@ int indexOf(String str) ：返回第一次出现的指定子字符串在此字�
 
 # Integer
 Integer.toString(i)
+Integer.parseInt(token)
 
 # Arrays
 int[] charMap = new int[256]; 
@@ -53,3 +54,17 @@ list.size() <= 0;
 Iterator it = al.iterator();
     while (it.hasNext()){
         Object obj = it.next();
+
+# Queue
+Queue<TreeNode> q = new LinkedList<>(); 
+q.add(root);
+TreeNode node = q.poll();
+
+# HashSet
+HashSet hashSet = new HashSet();
+hashSet.add("a");
+Iterator it = hashSet.iterator();
+  while(it.hasNext()){
+   Object obj = it.next();
+hashSet.remove(Object);
+hashSet.contains(new String("a")))
