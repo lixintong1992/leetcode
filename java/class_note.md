@@ -43,6 +43,7 @@ HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 map.containsKey(target - nums[i]);
 map.get(target - nums[i]);
 map.put(nums[i], i);
+map.remove(nums[i]);
 
 # List
 res.add(i);
