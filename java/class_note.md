@@ -14,10 +14,13 @@ String.valueOf(i)
 for (char c : s.toCharArray())
 strs[i].indexOf(pre) 
 int indexOf(String str) ：返回第一次出现的指定子字符串在此字符串中的索引。 
+String.format()
 
 # Integer
 Integer.toString(i)
 Integer.parseInt(token)
+Integer.bitCount(i)
+Integer.toBinaryString(i)
 
 # Arrays
 int[] charMap = new int[256]; 
