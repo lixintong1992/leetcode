@@ -50,6 +50,7 @@ map.remove(nums[i]);
 
 # List
 res.add(i);
+res.add(index, element);
 boolean remove(int index);
 set(int index, E element);
 get(int index)   返回列表中指定位置的元素
