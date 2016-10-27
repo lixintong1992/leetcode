@@ -15,6 +15,7 @@ for (char c : s.toCharArray())
 strs[i].indexOf(pre) 
 int indexOf(String str) ：返回第一次出现的指定子字符串在此字符串中的索引。 
 String.format()
+s.contains('a' + "")
 
 # Integer
 Integer.toString(i)
