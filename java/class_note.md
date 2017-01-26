@@ -22,6 +22,7 @@ Integer.toString(i)
 Integer.parseInt(token)
 Integer.bitCount(i)
 Integer.toBinaryString(i)
+Integer.highestOneBit(num)
 
 # Arrays
 int[] charMap = new int[256]; 
